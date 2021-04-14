@@ -3,7 +3,6 @@
   <remote name="ayufan" fetch="https://github.com/ayufan-pine64" />
   <remote name="omnirom" fetch="https://github.com/omnirom" />
   <remote name="cm" fetch="https://github.com/CyanogenMod" />
-  <remote name="opengapps" fetch="https://github.com/opengapps/"  />
   <remote name="google" fetch="https://github.com/google/"  />
 
   <remove-project name="platform/art" />
@@ -46,12 +45,6 @@
   <project path="art" name="art" remote="ayufan" revision="marshmallow" groups="pdk" />
   <project path="kati" name="kati" remote="google" revision="master" groups="pdk" />
 
-  <!-- Google Apps support -->
-  <project path="vendor/opengapps/atv-build" name="opengapps_atv_build" revision="nougat" remote="ayufan" />
-  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/sources/all" name="opengapps-all" clone-depth="1" revision="refs/heads/marshmallow" remote="ayufan" />
-  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
 
   <!-- SuperSU -->
   <project path="vendor/supersu" name="vendor-supersu" clone-depth="1" revision="nougat" remote="ayufan" />
