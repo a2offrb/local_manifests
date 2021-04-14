@@ -9,8 +9,8 @@
 
 2. Initialize manifests:
   ```
-  repo init -u https://android.googlesource.com/platform/manifest -b android-6.0.1_r74 --depth=1
-  git clone https://github.com/ayufan-pine64/local_manifests -b marshmallow .repo/local_manifests
+  repo init -u https://android.googlesource.com/platform/manifest -b android-6.0.1_r9 --depth=1
+  git clone https://github.com/a2offrb/local_manifests -b marshmallow .repo/local_manifests
   ```
 
 3. Checkout sources:
@@ -21,10 +21,10 @@
 4. Compile sources:
   ```
   source build/envsetup.sh
-  # tulip_chihpd-eng: use for normal Android build with Launcher
-  # tulip_chiphd_atv-eng: use for Android TV build with Leanback Launcher
   lunch tulip_chiphd-eng
   make
+   # tulip_chihpd-eng: use for normal Android build with Launcher
+  # tulip_chiphd_atv-eng: use for Android TV build with Leanback Launcher
   ```
 
 5. Create SD card image:
