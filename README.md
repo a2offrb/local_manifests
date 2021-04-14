@@ -9,7 +9,7 @@
 
 2. Initialize manifests:
   ```
-  repo init -u https://android.googlesource.com/platform/manifest -b android-6.0.1_r9 --depth=1
+  repo init -u https://android.googlesource.com/platform/manifest -b android-6.0.1_r81 --depth=1
   git clone https://github.com/a2offrb/local_manifests -b marshmallow .repo/local_manifests
   ```
 
